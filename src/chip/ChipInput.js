@@ -26,14 +26,13 @@ const ChipInput = () => {
     };
 
     const handleOnKeyDown = (event) => {
+
+        if (event.key !== "Backspace") return;
+
         if (highlightLastEntry) {
             removeUserFromList(addedUsers[addedUsers.length - 1]);
             setHighlightLastEntry(false);
-        } else if (
-            event.key === "Backspace" &&
-            searchQuery === "" &&
-            addedUsers.length !== 0
-        ) {
+        } else if (searchQuery === "" && addedUsers.length !== 0) {
             setHighlightLastEntry(true);
         }
     };
