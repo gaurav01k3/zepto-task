@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/zepto-task/static/css/main.1abefebc.css",
-    "main.js": "/zepto-task/static/js/main.602adddc.js",
+    "main.js": "/zepto-task/static/js/main.28da22f8.js",
     "static/js/787.d942d8ac.chunk.js": "/zepto-task/static/js/787.d942d8ac.chunk.js",
     "static/media/user.png": "/zepto-task/static/media/user.16a28682671cb2301234.png",
     "index.html": "/zepto-task/index.html",
     "main.1abefebc.css.map": "/zepto-task/static/css/main.1abefebc.css.map",
-    "main.602adddc.js.map": "/zepto-task/static/js/main.602adddc.js.map",
+    "main.28da22f8.js.map": "/zepto-task/static/js/main.28da22f8.js.map",
     "787.d942d8ac.chunk.js.map": "/zepto-task/static/js/787.d942d8ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1abefebc.css",
-    "static/js/main.602adddc.js"
+    "static/js/main.28da22f8.js"
   ]
 }
